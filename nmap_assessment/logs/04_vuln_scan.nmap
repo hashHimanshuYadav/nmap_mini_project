@@ -1,0 +1,23 @@
+# Nmap 7.98 scan initiated Thu Aug 20 05:21:34 2026 as: /usr/lib/nmap/nmap --privileged --script http-enum,http-headers,http-methods -p 80 -oA 04_vuln_scan 192.168.64.8
+Nmap scan report for 192.168.64.8
+Host is up (0.00059s latency).
+
+PORT   STATE SERVICE
+80/tcp open  http
+| http-headers: 
+|   Date: Thu, 20 Aug 2026 12:21:34 GMT
+|   Server: Apache/2.4.63 (Ubuntu)
+|   Last-Modified: Thu, 20 Aug 2026 12:08:21 GMT
+|   ETag: "29b0-6597960428024"
+|   Accept-Ranges: bytes
+|   Content-Length: 10672
+|   Vary: Accept-Encoding
+|   Connection: close
+|   Content-Type: text/html
+|   
+|_  (Request type: HEAD)
+| http-methods: 
+|_  Supported Methods: POST OPTIONS HEAD GET
+MAC Address: C2:D7:37:DC:41:DC (Unknown)
+
+# Nmap done at Thu Aug 20 05:21:34 2026 -- 1 IP address (1 host up) scanned in 0.95 seconds

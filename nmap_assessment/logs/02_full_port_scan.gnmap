@@ -1,0 +1,4 @@
+# Nmap 7.98 scan initiated Thu Aug 20 05:09:24 2026 as: /usr/lib/nmap/nmap --privileged -sS -p- --min-rate 1000 -oA 02_full_port_scan 192.168.64.8
+Host: 192.168.64.8 ()	Status: Up
+Host: 192.168.64.8 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///	Ignored State: closed (65533)
+# Nmap done at Thu Aug 20 05:09:25 2026 -- 1 IP address (1 host up) scanned in 1.28 seconds

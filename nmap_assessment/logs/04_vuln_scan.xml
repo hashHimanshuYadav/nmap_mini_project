@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.98 scan initiated Thu Aug 20 05:21:34 2026 as: /usr/lib/nmap/nmap -&#45;privileged -&#45;script http-enum,http-headers,http-methods -p 80 -oA 04_vuln_scan 192.168.64.8 -->
+<nmaprun scanner="nmap" args="/usr/lib/nmap/nmap -&#45;privileged -&#45;script http-enum,http-headers,http-methods -p 80 -oA 04_vuln_scan 192.168.64.8" start="1787228494" startstr="Thu Aug 20 05:21:34 2026" version="7.98" xmloutputversion="1.05">
+<scaninfo type="syn" protocol="tcp" numservices="1" services="80"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<hosthint><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.64.8" addrtype="ipv4"/>
+<address addr="C2:D7:37:DC:41:DC" addrtype="mac"/>
+<hostnames>
+</hostnames>
+</hosthint>
+<host starttime="1787228494" endtime="1787228494"><status state="up" reason="arp-response" reason_ttl="0"/>
+<address addr="192.168.64.8" addrtype="ipv4"/>
+<address addr="C2:D7:37:DC:41:DC" addrtype="mac"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="64"/><service name="http" method="table" conf="3"/><script id="http-headers" output="&#xa;  Date: Thu, 20 Aug 2026 12:21:34 GMT&#xa;  Server: Apache/2.4.63 (Ubuntu)&#xa;  Last-Modified: Thu, 20 Aug 2026 12:08:21 GMT&#xa;  ETag: &quot;29b0-6597960428024&quot;&#xa;  Accept-Ranges: bytes&#xa;  Content-Length: 10672&#xa;  Vary: Accept-Encoding&#xa;  Connection: close&#xa;  Content-Type: text/html&#xa;  &#xa;  (Request type: HEAD)&#xa;"/><script id="http-methods" output="&#xa;  Supported Methods: POST OPTIONS HEAD GET"><table key="Supported Methods">
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+<elem>HEAD</elem>
+<elem>GET</elem>
+</table>
+</script></port>
+</ports>
+<times srtt="593" rttvar="4080" to="100000"/>
+</host>
+<runstats><finished time="1787228494" timestr="Thu Aug 20 05:21:34 2026" summary="Nmap done at Thu Aug 20 05:21:34 2026; 1 IP address (1 host up) scanned in 0.95 seconds" elapsed="0.95" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

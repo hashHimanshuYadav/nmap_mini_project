@@ -1,0 +1,4 @@
+# Nmap 7.98 scan initiated Thu Aug 20 05:10:28 2026 as: /usr/lib/nmap/nmap --privileged -sV -O --version-intensity 5 -oA 03_service_os_detection 192.168.64.8
+Host: 192.168.64.8 ()	Status: Up
+Host: 192.168.64.8 ()	Ports: 22/open/tcp//ssh//OpenSSH 9.9p1 Ubuntu 3ubuntu3.2 (Ubuntu Linux; protocol 2.0)/, 80/open/tcp//http//Apache httpd 2.4.63 ((Ubuntu))/	Ignored State: closed (998)	OS: Linux 4.15 - 5.19|OpenWrt 21.02 (Linux 5.4)|MikroTik RouterOS 7.2 - 7.5 (Linux 5.6.3)	Seq Index: 261	IP ID Seq: All zeros
+# Nmap done at Thu Aug 20 05:10:36 2026 -- 1 IP address (1 host up) scanned in 8.17 seconds
